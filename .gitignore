@@ -1,0 +1,17 @@
+# ROS / catkin
+ros_ws/build/
+ros_ws/devel/
+ros_ws/install/
+ros_ws/.catkin_tools/
+
+# logs
+*.log
+.ros/
+
+# python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
