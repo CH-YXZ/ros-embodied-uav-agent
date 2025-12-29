@@ -1,0 +1,17 @@
+{"t": 33.466, "step": 1, "tool": "reset", "args": {}, "ok": true, "reason": ""}
+{"t": 38.466, "step": 2, "tool": "hover", "args": {"seconds": 5.0}, "ok": true, "reason": ""}
+{"t": 39.469, "step": 3, "tool": "takeoff", "args": {"x": 0.0, "y": 0.0, "z": 1.0, "timeout": 10.0}, "ok": true, "reason": ""}
+{"t": 44.772, "step": 4, "tool": "goto", "args": {"x": 5.0, "y": 0.0, "z": 1.0, "timeout": 6.0}, "ok": true, "reason": ""}
+{"t": 45.172, "step": 5, "tool": "goto", "args": {"x": 5.0, "y": 0.0, "z": 0.5, "timeout": 4.0}, "ok": true, "reason": ""}
+{"t": 48.174, "step": 6, "tool": "hover", "args": {"seconds": 3.0}, "ok": true, "reason": ""}
+{"t": 48.178, "step": 7, "tool": "drop_payload", "args": {}, "ok": true, "reason": "Payload released (stop following UAV)."}
+{"t": 48.879, "step": 8, "tool": "goto", "args": {"x": 5.0, "y": 0.0, "z": 1.0, "timeout": 4.0}, "ok": true, "reason": ""}
+{"t": 54.18, "step": 9, "tool": "goto", "args": {"x": 10.0, "y": 0.0, "z": 1.0, "timeout": 6.0}, "ok": true, "reason": ""}
+{"t": 54.883, "step": 10, "tool": "land", "args": {"x": 10.0, "y": 0.0, "z": 0.2, "timeout": 8.0}, "ok": true, "reason": ""}
+{"t": 54.885, "step": 11, "tool": "done", "args": {}, "ok": true, "reason": "plan finished"}
+{"t": 2.19, "step": 12, "tool": "reset", "args": {}, "ok": true, "reason": ""}
+{"t": 7.19, "step": 13, "tool": "hover", "args": {"seconds": 5.0}, "ok": true, "reason": ""}
+{"t": 17.191, "step": 14, "tool": "takeoff", "args": {"x": 0.0, "y": 0.0, "z": 1.0, "timeout": 10.0}, "ok": false, "reason": "TIMEOUT"}
+{"t": 17.191, "step": 15, "tool": "recovery", "args": {"action": "ascend_safe", "x": 0.0, "y": 0.0, "z_safe": 1.2}, "ok": true, "reason": ""}
+{"t": 30.191, "step": 16, "tool": "takeoff", "args": {"x": 0.0, "y": 0.0, "z": 1.0, "timeout": 10.0}, "ok": false, "reason": "TIMEOUT"}
+{"t": 30.192, "step": 17, "tool": "abort", "args": {"failed_step": 3, "step": {"tool": "takeoff", "args": {"x": 0.0, "y": 0.0, "z": 1.0, "timeout": 10.0}}}, "ok": false, "reason": "mission aborted"}
